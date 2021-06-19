@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">sl no.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">number</th>
+            <th scope="col">message</th>
+            {{}}
+          </tr>
+        </thead>
+        <tbody>
+          {% for dir in user%}
+          <tr>
+            <td>{{loop.index}}</td>
+            <td>{{dir.Name}}</td>
+            <td>{{dir.Email}}</td>
+            <td>{{dir.number}}</td>
+            <td>{{dir.message}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
