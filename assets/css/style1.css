@@ -34,7 +34,7 @@
   margin-left: 6%;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 4vw;
   line-height: 75px;
   color: #3c3c3c;
   margin-top: 5%;
@@ -166,12 +166,12 @@
 }
 .footer-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: vw;
   line-height: 15px;
   color: #ffffff;
   margin-top: 2%;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .contact-icons {
   margin-top: 1%;
@@ -224,7 +224,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 8vw;
+    font-size: 10vw;
     line-height: 60px;
     color: white;
     position: absolute;
@@ -375,16 +375,16 @@
   }
   .footer-title {
     font-style: normal;
-    font-weight: 500;
-    font-size: vw;
+    font-weight: 300;
+    font-size: 3.5vw;
     line-height: 15px;
     color: #ffffff;
     margin-top: 6%;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   .contact-icons {
     margin-top: 2%;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   .back-to-top {
     float: right;
