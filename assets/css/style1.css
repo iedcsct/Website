@@ -396,17 +396,21 @@
   .facebook {
     width: 6vw;
     height: auto;
+    margin-right: 2%;
   }
   .instagram {
     width: 6vw;
     height: auto;
+    margin-right: 2%;
   }
   .linked-in {
     width: 6vw;
     height: auto;
+    margin-right: 2%;
   }
   .mail {
     width: 8vw;
     height: auto;
+    margin-right: 2%;
   }
 }
