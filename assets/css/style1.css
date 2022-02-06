@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  font-family: Poppins;
+}
+.college1 {
+  display: block;
+  width: 30%;
+  height: auto;
+  float: right;
+}
+.college {
+  display: none;
+}
+.sct-white {
+  display: none;
+}
+.sct-black {
+  display: block;
+  width: 20vw;
+  height: auto;
+}
+.logo-top {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+.iedc {
+  width: 6vw;
+  height: auto;
+}
+.main-title {
+  margin-left: 6%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;
+  color: #3c3c3c;
+  margin-top: 5%;
+}
+.sub-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 6%;
+  margin-top: 0%;
+  color: #3c3c3c;
+}
+
+.prize {
+  margin-left: 6%;
+  margin-top: 4%;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+}
+.img-name {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+.positions {
+  display: flex;
+  align-items: center;
+  background: #f3f3f3;
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  padding: 13px 21px;
+  justify-content: space-between;
+  width: 40vw;
+}
+.positions2 {
+  display: flex;
+  align-items: center;
+  padding: 13px 21px;
+  justify-content: space-between;
+  width: 40vw;
+}
+.team-name {
+  margin-left: 6%;
+  min-width: 12vw;
+  max-width: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+}
+.team-points {
+  margin-left: 30%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+}
+.scoreboard {
+  margin-left: 6%;
+}
+.title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 52px;
+  margin-top: 3%;
+}
+.team-logo {
+  width: 15vw;
+  height: auto;
+  border: 8px solid #747474;
+  border-radius: 4px;
+  float: right;
+  margin-right: 6%;
+}
+.team-header {
+  gap: 5vw;
+}
+.team-header-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* width: 45vw; */
+  /* overflow-wrap: break-word; */
+}
+.team-header-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+}
+.team-header-text {
+  margin-left: 12vw;
+}
+.teams {
+  margin-bottom: 6%;
+}
+.players {
+  margin-top: 3%;
+  margin-left: 1%;
+}
+.player {
+  display: flex;
+  margin-bottom: 2%;
+}
+.player-text {
+  /* margin-left: 44vw; */
+  position: absolute;
+  right: 51.5vw;
+}
+.footer {
+  background: #002b64;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: vw;
+  line-height: 15px;
+  color: #ffffff;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+.contact-icons {
+  margin-top: 1%;
+  opacity: 0.9;
+}
+.back-to-top {
+  float: right;
+  width: 2.5%;
+  height: auto;
+  margin-right: 2%;
+  margin-top: -4%;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0px;
+    font-family: Poppins;
+  }
+  .college {
+    width: 100vw;
+    display: unset;
+  }
+  .college1 {
+    display: none;
+  }
+  .sct-black {
+    display: none;
+  }
+  .sct-white {
+    display: block;
+  }
+  .iedc {
+    width: 16vw;
+    height: auto;
+  }
+  .sct-white {
+    width: 49vw;
+    height: auto;
+  }
+  .logo-top {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2%;
+    align-items: center;
+  }
+  .main-title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8vw;
+    line-height: 60px;
+    color: white;
+    position: absolute;
+    top: 21%;
+    opacity: 0.95;
+    left: 6%;
+    right: 6%;
+    max-width: 500px;
+  }
+  .sub-title {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 4.5vw;
+    line-height: 27px;
+    color: white;
+    position: absolute;
+    top: 43%;
+    opacity: 0.85;
+    left: 6%;
+    right: 6%;
+    max-width: 500px;
+  }
+  .prize {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .title {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 5.5vw;
+    line-height: 30px;
+    margin-top: 8%;
+  }
+  .positions {
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f3f3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 30px;
+    background: #f3f3f3;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    padding: 5% 4%;
+    width: unset;
+  }
+  .img-name {
+    display: flex;
+    align-items: center;
+  }
+  .positions2 {
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 30px;
+    padding: 5% 4%;
+    width: unset;
+  }
+  .team-name {
+    margin-left: 30px;
+    max-width: 33vw;
+    overflow-x: hidden;
+  }
+  .team-points {
+    min-width: unset;
+    margin-left: unset;
+  }
+
+  .scoreboard {
+    margin: 6% 6% 0% 6%;
+  }
+  .title2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.5vw;
+    line-height: 52px;
+  }
+  .teams {
+    margin-bottom: 9%;
+  }
+  .team-header {
+    display: flex;
+    gap: 5vw;
+  }
+  .team-logo {
+    width: 33vw;
+    height: auto;
+    border: 8px solid #747474;
+    border-radius: 4px;
+    float: unset;
+    margin-right: unset;
+  }
+
+  .team-header-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 45vw;
+    overflow-wrap: break-word;
+  }
+  .team-header-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: unset;
+    margin-top: 2vh;
+  }
+  .header-text {
+    float: unset;
+    display: unset;
+  }
+  .players {
+    margin: 6% 8% 0% 0%;
+  }
+  .player {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+  }
+  .player-text {
+    /* margin-left: unset; */
+    position: absolute;
+    right: 11vw;
+  }
+  .player p{
+    max-width: 63vw;
+    overflow-x: hidden;
+  }
+  .footer {
+    width: 100vw;
+    background: #002b64;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 6%;
+  }
+  .footer-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw;
+    line-height: 15px;
+    color: #ffffff;
+    margin-top: 6%;
+    opacity: 0.9;
+  }
+  .contact-icons {
+    margin-top: 2%;
+    opacity: 0.9;
+  }
+  .back-to-top {
+    float: right;
+    width: 7%;
+    height: auto;
+    margin-right: 3%;
+    margin-top: -17%;
+  }
+  .facebook {
+    width: 6vw;
+    height: auto;
+  }
+  .instagram {
+    width: 6vw;
+    height: auto;
+  }
+  .linked-in {
+    width: 6vw;
+    height: auto;
+  }
+  .mail {
+    width: 8vw;
+    height: auto;
+  }
+}
